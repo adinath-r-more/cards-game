@@ -1,0 +1,36 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+#main {
+    height: 100%;
+    width: 100%;
+}
+
+#header {
+    height: 10%;
+    width: 100%;
+    background: gold;
+    /* position: fixed;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px; */
+}
+ li{
+    display: flex;
+    list-style: none;
+    padding: 0 12px;
+    align-items: center;
+}
+
+#page1{
+    height: 90%;
+    width: 100%;
+    background: salmon;
+}
